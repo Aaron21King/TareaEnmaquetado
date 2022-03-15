@@ -1,0 +1,314 @@
+
+/* selector universal para resetear los estilos por defecto */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color:#fff;
+}
+/*Portadas*/
+body {
+    /* background-color: red; */
+    background:  url(../Practica1/img/logo3.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+.portada1{
+    background:  url(../Practica1/img/fondop.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+.portada2{
+    background:  url(../Practica1/img/jl2portada.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+.portada3{
+    background:  url(../Practica1/img/sq2.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+.portada4{
+    background:  url(../Practica1/img/flashp.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+.portada5{
+    background:  url(../Practica1/img/bap.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+.portada6{
+    background:  url(../Practica1/img/jportada.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+.portada7{
+    background:  url(../Practica1/img/jldwp.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+.portada9{
+    background:  url(../Practica1/img/harleyf.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+.portada10{
+    background:  url(../Practica1/img/joker.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+
+/*---------------------------------------------------*/
+
+header,
+footer,
+#pagina {
+    width: 90%;
+    max-width: 1200px;
+    /* margin: 20px auto; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pagina {
+    min-height: 300px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* estilizar logo y nav */
+
+.logo {
+    width: 50px;
+}
+footer {
+    align-items: center;
+    background-color: #690303;
+    padding:25px;
+    color: #fff;
+    border-radius: 6px;
+    background-color: #303030;
+    background-image: url(../Practica1/img/footer.jpg);
+    
+   
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-items: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #500b0b;
+    padding: 0 16px;
+    border-radius: 6px;
+    background-image: url(../Practica1/img/footer.jpg);
+    
+    /* padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px; */
+}
+
+header nav {
+    width: 90%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+
+/* header nav ul li {
+    float: left;
+} */
+
+.navLink a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main {
+    padding: 10px;
+    flex: 3;
+}
+.main h1{
+    background-color: #52160e;
+    flex: 1;
+    padding: 5px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    text-align: center;
+    background-image: url(../Practica1/img/footer.jpg);
+    
+}
+
+.main .articlesContainer {
+    width: 100%;
+    padding: 20px 0;
+    margin-right: 1.5%;
+}
+
+.articlesContainer article {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1.5%;
+    padding: 15px;
+    border-radius: 6px;
+    background-image: url(../Practica1/img/footer.jpg);
+    color:white;
+}
+.articlesContainer h3{
+    color:white;;
+}
+
+.sidebar {
+   /*  width: 20%; */
+    padding: 5px;
+    background-color: rgb(90, 14, 14);
+    color: #FFFFFF;
+    border-radius: 6px;
+    height:50%;
+    margin-bottom:1.5%;
+    text-align: center;
+    align-items: center;
+    padding:25px;
+    color: #fff;
+    border-radius: 6px;
+    background-image: url(../Practica1/img/footer.jpg);
+    
+}
+.color1 li{
+    color: white;
+}
+
+.sidebar h3 {
+    /* width: 30%; */
+    justify-content: flex-end;
+    flex: 5;
+    padding: 5px;
+    background-color: #1a0907;
+    color: #FFFFFF;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/*Galeria*/
+h2 {
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    color:#fff;
+    
+}
+
+.galeria {
+    border-radius: 6px;
+   
+}
+.info {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.info div{
+    color: #fff;
+    padding:10px;
+}
+
+.info div span {
+    font-weight: 600;
+}
+
+.info div img {
+    width: 250px;
+    height: 300px;
+}
+
+.texto{
+    color : white;
+}
+.video {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap:10px;
+    padding: 40px 0;
+}
+
+.video iframe {
+    width: 100%;
+    vertical-align: top;
+    height: 315px;
+    min-width: 500px;
+    object-fit: cover;
+}
+/* ---- ----- ----- Galeria de Juego ---- ----- ----- */
+
+.linea{
+    background: #72050a;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+.portadami{
+   /* background-image: url(../Practica1/img/footer.jpg);
+    color:white;*/
+    color: white;
+    background:  url(../Practica1/img/logo3.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+
+
