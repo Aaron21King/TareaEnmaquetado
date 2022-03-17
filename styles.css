@@ -1,6 +1,4 @@
 
-/* selector universal para resetear los estilos por defecto */
-
 * {
     margin: 0;
     padding: 0;
@@ -12,70 +10,70 @@ h1{
 /*Portadas*/
 body {
     /* background-color: red; */
-    background:  url(../Practica1/img/logo3.jpg);
+    background:  url(/img/logo3.jpg);
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
 }
 .portada1{
-    background:  url(../Practica1/img/fondop.jpg);
+    background:  url(/img/fondop.jpg);
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
 }
 .portada2{
-    background:  url(../Practica1/img/jl2portada.jpg);
+    background:  url(/img/jl2portada.jpg);
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
 }
 .portada3{
-    background:  url(../Practica1/img/sq2.jpg);
+    background:  url(/img/sq2.jpg);
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
 }
 .portada4{
-    background:  url(../Practica1/img/flashp.jpg);
+    background:  url(/img/flashp.jpg);
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
 }
 .portada5{
-    background:  url(../Practica1/img/bap.jpg);
+    background:  url(/img/bap.jpg);
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
 }
 .portada6{
-    background:  url(../Practica1/img/jportada.jpg);
+    background:  url(/img/jportada.jpg);
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
 }
 .portada7{
-    background:  url(../Practica1/img/jldwp.jpg);
+    background:  url(/img/jldwp.jpg);
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
 }
 .portada9{
-    background:  url(../Practica1/img/harleyf.jpg);
+    background:  url(/img/harleyf.jpg);
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
 }
 .portada10{
-    background:  url(../Practica1/img/joker.jpg);
+    background:  url(/img/joker.jpg);
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;
@@ -117,7 +115,7 @@ footer {
     color: #fff;
     border-radius: 6px;
     background-color: #303030;
-    background-image: url(../Practica1/img/footer.jpg);
+    background-image: url(/img/footer.jpg);
     
    
 }
@@ -137,7 +135,7 @@ header {
     background-color: #500b0b;
     padding: 0 16px;
     border-radius: 6px;
-    background-image: url(../Practica1/img/footer.jpg);
+    background-image: url(/img/footer.jpg);
     
     /* padding-top: 0;
     padding-bottom: 0;
@@ -184,7 +182,7 @@ header nav ul {
     color: #FFFFFF;
     border-radius: 6px;
     text-align: center;
-    background-image: url(../Practica1/img/footer.jpg);
+    background-image: url(/img/footer.jpg);
     
 }
 
@@ -200,7 +198,7 @@ header nav ul {
     margin-bottom: 1.5%;
     padding: 15px;
     border-radius: 6px;
-    background-image: url(../Practica1/img/footer.jpg);
+    background-image: url(/img/footer.jpg);
     color:white;
 }
 .articlesContainer h3{
@@ -220,7 +218,7 @@ header nav ul {
     padding:25px;
     color: #fff;
     border-radius: 6px;
-    background-image: url(../Practica1/img/footer.jpg);
+    background-image: url(/img/footer.jpg);
     
 }
 .color1 li{
@@ -304,7 +302,7 @@ h2 {
    /* background-image: url(../Practica1/img/footer.jpg);
     color:white;*/
     color: white;
-    background:  url(../Practica1/img/logo3.jpg);
+    background:  url(/img/logo3.jpg);
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;
